@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620" font-size="15" role="img" aria-label="Headline against parameters">
+<style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap');
+/* Datalab design system -- tokens from svelte/src/styles/datalab-system.css, converted from
+   oklch to hex so the figures render identically outside a browser. The system is light-only;
+   this guard stops a viewer's auto dark mode inverting them on its own. */
+:root{color-scheme:only light}
+text{font-family:Geist,ui-sans-serif,system-ui,sans-serif;fill:#0f1217}
+.h2{font-weight:500;font-size:18px;letter-spacing:-.09px;font-feature-settings:"ss01" 1}
+.cap{font-size:13px;fill:#595e66}
+.nm{font-family:"Geist Mono",ui-monospace,"SF Mono",Menlo,monospace;font-size:12.5px;fill:#3a3d44}
+.num{font-family:"Geist Mono",ui-monospace,"SF Mono",Menlo,monospace;font-size:12px;fill:#3a3d44;
+  font-feature-settings:"tnum" 1}
+.halo{paint-order:stroke;stroke:#f9fafd;stroke-width:5px;stroke-linejoin:round}
+]]></style>
+<rect width="980" height="620" fill="#f9fafd"/>
+<text class="h2" x="24" y="38" text-anchor="start">Headline against parameters</text>
+<text class="cap" x="24" y="60" text-anchor="start">Total parameters of published weights (Hugging Face).</text>
+<line x1="64" x2="940" y1="530.0" y2="530.0" stroke="#e9ebf0"/>
+<text class="num" x="56" y="534" text-anchor="end">60</text>
+<line x1="64" x2="940" y1="469.7" y2="469.7" stroke="#e9ebf0"/>
+<text class="num" x="56" y="473.714" text-anchor="end">65</text>
+<line x1="64" x2="940" y1="409.4" y2="409.4" stroke="#e9ebf0"/>
+<text class="num" x="56" y="413.429" text-anchor="end">70</text>
+<line x1="64" x2="940" y1="349.1" y2="349.1" stroke="#e9ebf0"/>
+<text class="num" x="56" y="353.143" text-anchor="end">75</text>
+<line x1="64" x2="940" y1="288.9" y2="288.9" stroke="#e9ebf0"/>
+<text class="num" x="56" y="292.857" text-anchor="end">80</text>
+<line x1="64" x2="940" y1="228.6" y2="228.6" stroke="#e9ebf0"/>
+<text class="num" x="56" y="232.571" text-anchor="end">85</text>
+<line x1="64" x2="940" y1="168.3" y2="168.3" stroke="#e9ebf0"/>
+<text class="num" x="56" y="172.286" text-anchor="end">90</text>
+<line x1="64" x2="940" y1="108.0" y2="108.0" stroke="#e9ebf0"/>
+<text class="num" x="56" y="112" text-anchor="end">95</text>
+<line x1="86.4" x2="86.4" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="86.3646" y="548" text-anchor="middle">10M</text>
+<line x1="155.8" x2="155.8" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="155.835" y="548" text-anchor="middle">20M</text>
+<line x1="247.7" x2="247.7" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="247.67" y="548" text-anchor="middle">50M</text>
+<line x1="317.1" x2="317.1" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="317.141" y="548" text-anchor="middle">100M</text>
+<line x1="386.6" x2="386.6" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="386.612" y="548" text-anchor="middle">200M</text>
+<line x1="478.4" x2="478.4" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="478.447" y="548" text-anchor="middle">500M</text>
+<line x1="547.9" x2="547.9" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="547.918" y="548" text-anchor="middle">1B</text>
+<line x1="617.4" x2="617.4" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="617.388" y="548" text-anchor="middle">2B</text>
+<line x1="709.2" x2="709.2" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="709.223" y="548" text-anchor="middle">5B</text>
+<line x1="778.7" x2="778.7" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="778.694" y="548" text-anchor="middle">10B</text>
+<line x1="848.2" x2="848.2" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="848.165" y="548" text-anchor="middle">20B</text>
+<line x1="940.0" x2="940.0" y1="108" y2="530" stroke="#e9ebf0"/>
+<text class="num" x="940" y="548" text-anchor="middle">50B</text>
+<text class="cap" x="502" y="570" text-anchor="middle">parameters (log scale)</text>
+<text class="cap" transform="translate(20 319) rotate(-90)" text-anchor="middle">headline</text>
+<polyline points="106.7,415.3 510.2,415.3 510.2,251.9 562.4,251.9 562.4,203.5 659.3,203.5 659.3,193.9 715.0,193.9 715.0,167.4 940.0,167.4" fill="none" stroke="#595e66" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="715.0" cy="167.4" r="5" fill="#001dbe"/>
+<text class="nm halo" x="704.98" y="171.418" text-anchor="end" style="fill:#001dbe">chandra-ocr-2</text>
+<circle cx="659.3" cy="193.9" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="649.326" y="197.934" text-anchor="end">dots.mocr</text>
+<circle cx="562.4" cy="203.5" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="552.449" y="207.523" text-anchor="end">MinerU2.5-Pro</text>
+<circle cx="904.6" cy="204.7" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="894.559" y="208.663" text-anchor="end">Infinity-Parser2-Pro</text>
+<circle cx="510.2" cy="251.9" r="5" fill="#001dbe"/>
+<text class="nm halo" x="500.168" y="255.934" text-anchor="end" style="fill:#001dbe">Surya OCR 2</text>
+<circle cx="699.5" cy="253.7" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="709.534" y="257.692" text-anchor="start">LightOnOCR-3-4B</text>
+<line x1="529.0" y1="273.2" x2="510.0" y2="294.2" stroke="#9a9fa7" stroke-width="1"/>
+<circle cx="532.0" cy="269.2" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="507.981" y="299.219" text-anchor="end">LightOnOCR-3-0.8B</text>
+<circle cx="578.6" cy="270.8" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="588.628" y="274.813" text-anchor="start">GLM-OCR</text>
+<circle cx="668.7" cy="297.8" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="678.669" y="301.764" text-anchor="start">Unlimited-OCR</text>
+<circle cx="547.1" cy="304.5" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="555.1" y="328.497" text-anchor="start">PaddleOCR-VL-1.6</text>
+<line x1="624.5" y1="311.8" x2="693.5" y2="324.8" stroke="#9a9fa7" stroke-width="1"/>
+<circle cx="627.5" cy="307.8" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="691.542" y="329.766" text-anchor="start">Infinity-Parser2-Flash</text>
+<circle cx="670.2" cy="346.7" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="680.249" y="350.673" text-anchor="start">DeepSeek-OCR-2</text>
+<circle cx="106.7" cy="415.3" r="5" fill="#001dbe"/>
+<text class="nm halo" x="106.743" y="404.295" text-anchor="middle" style="fill:#001dbe">Indra OCR</text>
+<circle cx="559.3" cy="474.5" r="5" fill="#3a3d44"/>
+<text class="nm halo" x="569.269" y="478.474" text-anchor="start">HunyuanOCR-1.5</text>
+<text class="cap" x="24" y="608" text-anchor="start">olmOCR-2 and Nanonets-OCR2-3B return no layout, so they have no headline and aren&#x27;t shown.</text>
+</svg>

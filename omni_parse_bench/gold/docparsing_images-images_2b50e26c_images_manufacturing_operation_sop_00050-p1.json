@@ -1,0 +1,103 @@
+{
+  "tests": [
+    {
+      "id": "docparsing_images_5393cdde_p1_panelq_0",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng",
+        "header_footer"
+      ],
+      "args": {
+        "content": {
+          "text": "4200 Bonita Place, Fullerton, CA 92835 USA",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_5393cdde_p1_panelq_1",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng",
+        "footnote",
+        "tiny"
+      ],
+      "args": {
+        "content": {
+          "text": "² Contact our customer service for custom designs and features.",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_5393cdde_p1_panelq_2",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn"
+      ],
+      "args": {
+        "content": {
+          "text": "500 1K 2K 5K 10K 20K 50K 100K 200K 500K 1MEG",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_5393cdde_p1_orderq_0",
+      "test_type": "order",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng",
+        "footnote",
+        "heading",
+        "tiny"
+      ],
+      "args": {
+        "before": {
+          "text": "STANDARD RESISTANCE VALUES, OHMS",
+          "max_diffs": 1
+        },
+        "after": {
+          "text": "² Contact our customer service for custom designs and features.",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_5393cdde_p1_orderq_1",
+      "test_type": "order",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng",
+        "header_footer"
+      ],
+      "args": {
+        "before": {
+          "text": "500 1K 2K 5K 10K 20K 50K 100K 200K 500K 1MEG",
+          "max_diffs": 1
+        },
+        "after": {
+          "text": "4200 Bonita Place, Fullerton, CA 92835 USA",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    }
+  ]
+}

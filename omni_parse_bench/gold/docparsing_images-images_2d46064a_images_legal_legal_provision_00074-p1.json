@@ -1,0 +1,152 @@
+{
+  "tests": [
+    {
+      "id": "docparsing_images_c1a80e49_p1_panelq_0",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng",
+        "form"
+      ],
+      "args": {
+        "content": {
+          "text": "[typed address of other agency]",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_c1a80e49_p1_panelq_2",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "content": {
+          "text": "Nothing herein is intended to conflict with current DOC or [name of other agency] directives. If",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_c1a80e49_p1_panelq_3",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "content": {
+          "text": "inconsistency shall remain in full force and effect. At the first opportunity for review of the",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_c1a80e49_p1_orderq_0",
+      "test_type": "order",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "before": {
+          "text": "inconsistent shall be invalid, but the remaining terms and conditions not affected by the",
+          "max_diffs": 1
+        },
+        "after": {
+          "text": "agreement, all necessary changes will be accomplished either by an amendment to this",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_c1a80e49_p1_orderq_1",
+      "test_type": "order",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "before": {
+          "text": "inconsistent shall be invalid, but the remaining terms and conditions not affected by the",
+          "max_diffs": 1
+        },
+        "after": {
+          "text": "agreement or by entering into a new agreement, whichever is deemed expedient to the interest of",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images-images_2d46064a_images_legal_legal_provision_00074-p1_line3_kind",
+      "test_type": "layout_kind",
+      "output_type": "blocks",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "content": {
+          "text": "agreement or by entering into a new agreement, whichever is deemed expedient to the interest of",
+          "max_diffs": 0,
+          "place": [
+            [
+              0.11821,
+              0.26867,
+              0.87877,
+              0.283
+            ]
+          ]
+        }
+      },
+      "settings": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "docparsing_images-images_2d46064a_images_legal_legal_provision_00074-p1_line4_kind",
+      "test_type": "layout_kind",
+      "output_type": "blocks",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "content": {
+          "text": "[Add Dispute Resolution Provision per OMB Requirements:]",
+          "max_diffs": 0,
+          "place": [
+            [
+              0.11907,
+              0.32167,
+              0.59836,
+              0.336
+            ]
+          ]
+        }
+      },
+      "settings": {
+        "kind": "text"
+      }
+    }
+  ]
+}

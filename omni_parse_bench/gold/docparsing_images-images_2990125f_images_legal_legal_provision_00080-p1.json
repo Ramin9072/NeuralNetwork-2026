@@ -1,0 +1,97 @@
+{
+  "tests": [
+    {
+      "id": "docparsing_images_73f1dcdd_p1_panelq_0",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "content": {
+          "text": "of general applicability and future effect",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_73f1dcdd_p1_panelq_1",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "content": {
+          "text": "as a Special Edition of the Federal Register",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_73f1dcdd_p1_panelq_2",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "content": {
+          "text": "Containing a codification of documents",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_73f1dcdd_p1_orderq_0",
+      "test_type": "order",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "before": {
+          "text": "Containing a codification of documents",
+          "max_diffs": 1
+        },
+        "after": {
+          "text": "Published by the Office of the Federal Register",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_73f1dcdd_p1_orderq_1",
+      "test_type": "order",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Latn",
+        "eng"
+      ],
+      "args": {
+        "before": {
+          "text": "Published by the Office of the Federal Register",
+          "max_diffs": 1
+        },
+        "after": {
+          "text": "as a Special Edition of the Federal Register",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    }
+  ]
+}

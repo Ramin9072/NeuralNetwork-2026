@@ -1,0 +1,42 @@
+{
+  "tests": [
+    {
+      "id": "docparsing_images_189a8695_p1_panelq_0",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Hani",
+        "Latn",
+        "caption",
+        "cmn"
+      ],
+      "args": {
+        "content": {
+          "text": "图1-45 安装 apache 图1-46 安装 MySQL",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "docparsing_images_189a8695_p1_panelq_1",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Hani",
+        "Latn",
+        "cmn",
+        "list"
+      ],
+      "args": {
+        "content": {
+          "text": "1）打开 D 盘下的“phpnow”文件夹，双击“Setup.cmd”文件，然后输入 Apache 版",
+          "max_diffs": 1
+        }
+      },
+      "settings": {}
+    }
+  ]
+}

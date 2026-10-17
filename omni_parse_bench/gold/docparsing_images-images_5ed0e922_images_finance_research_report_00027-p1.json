@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "id": "docparsing_images_ce0c1738_p1_panelq_1",
+      "test_type": "present",
+      "output_type": "html",
+      "derivation": "model_panel",
+      "tags": [
+        "Hani",
+        "Latn",
+        "cmn",
+        "footnote",
+        "multi_column",
+        "tiny"
+      ],
+      "args": {
+        "content": {
+          "text": "资料来源：FactSet，中金公司研究部（数据截至 2023 年 3 月 31 日）",
+          "max_diffs": 0
+        }
+      },
+      "settings": {}
+    }
+  ]
+}

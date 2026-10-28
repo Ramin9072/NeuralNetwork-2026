@@ -4,7 +4,7 @@ from matplotlib.patches import Rectangle
 
 class ShapeCalculator:
     def __init__(self, size, channels=1):
-        self.size = size              # اندازه ورودی (مربعی)
+        self.size = size              # input size (square)
         self.channels = channels
         self.layers = []              # (kind, name, kernel, stride, pad, filters)
 
@@ -17,7 +17,7 @@ class ShapeCalculator:
         return self
 
     def bn(self, name="BN"):
-        """BatchNormalization: اندازه و تعداد کانال را تغییر نمی‌دهد."""
+        """BatchNormalization: does not change the size or the number of channels."""
         self.layers.append(("bn", name, None, None, None, None))
         return self
 
@@ -29,7 +29,7 @@ class ShapeCalculator:
         return (w - kernel + 2 * p) // stride + 1
 
     def _trace(self, size=None):
-        """لیست (name, kind, w, c) برای هر لایه؛ در اولین خطا متوقف می‌شود."""
+        """List of (name, kind, w, c) for each layer; stops at the first error."""
         w = size or self.size
         c = self.channels
         rows = [("input", "input", w, c)]
@@ -54,7 +54,7 @@ class ShapeCalculator:
 
     def plot(self, size=None):
         rows = self._trace(size)
-        error = rows.pop() if rows[-1][2] <= 0 else None   # لایه خطادار رسم نمی‌شود
+        error = rows.pop() if rows[-1][2] <= 0 else None   # the failing layer is not drawn
 
         colors = {"input": "#B4B2A9", "conv": "#5DCAA5",
                   "pool": "#F0997B", "bn": "#AFA9EC"}
@@ -67,12 +67,12 @@ class ShapeCalculator:
             col = colors[kind]
             ax.text(0, i, name, va="center", fontsize=11)
 
-            s = 0.7 * w / max_w                                # مربع = اندازه مکانی
+            s = 0.7 * w / max_w                                # square = spatial size
             ax.add_patch(Rectangle((3 - s / 2, i - s / 2), s, s,
                                    color=col, ec="k", lw=0.5))
             ax.text(4, i, f"{w}×{w}×{c}", va="center", fontsize=10)
 
-            L = 5 * c / max_c                                  # میله = تعداد کانال
+            L = 5 * c / max_c                                  # bar = number of channels
             ax.add_patch(Rectangle((6.5, i - 0.2), L, 0.4,
                                    color=col, ec="k", lw=0.5))
             ax.text(6.5 + L + 0.15, i, str(c), va="center", fontsize=10)
@@ -89,7 +89,7 @@ class ShapeCalculator:
 
         ax.set_title(title)
         ax.set_xlim(0, 13)
-        ax.set_ylim(n + 0.5, -0.8)       # ردیف اول بالا باشد
+        ax.set_ylim(n + 0.5, -0.8)       # first row at the top
         ax.axis("off")
         plt.show()
 
